@@ -1,0 +1,14 @@
+{
+    "workbench.commandPalette.experimental.suggestCommands": false,
+    "workbench.list.horizontalScrolling": false,
+    "workbench.list.scrollByPage": false,
+    "workbench.list.typeNavigationMode": "automatic",
+    "workbench.tree.indent": 10,
+    "breadcrumbs.filePath": "on",
+    "workbench.tree.renderIndentGuides": "onHover",
+    "workbench.view.alwaysShowHeaderActions": false,
+    "breadcrumbs.enabled": true,
+    "breadcrumbs.icons": true,
+    "workbench.editor.labelFormat": "default",
+    "workbench.settings.openDefaultSettings": false
+}
