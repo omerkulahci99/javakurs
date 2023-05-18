@@ -1,10 +1,149 @@
 -- HTML Araştırma Ödevleri --
 1-) CDN nedir ?
+CDN, "Content Delivery Network"ın (İçerik Dağıtım Ağı) kısaltmasıdır.
+İnternet üzerindeki içeriklerin daha hızlı ve etkili bir şekilde kullanıcılara dağıtımını sağlamak için kullanılan bir sistemdir.
+Bir CDN, farklı coğrafi konumlarda bulunan sunucular ağından oluşur ve bu sunucular, kullanıcılara içerikleri daha hızlı ve güvenilir bir şekilde teslim etmek için yakınlarındaki sunucuyu kullanır.
+Bir CDN'nin temel amacı, kullanıcılara içerikleri daha hızlı ve daha güvenilir bir şekilde sunmaktır.
+Bu, kullanıcı deneyimini artırır ve web sitelerinin veya uygulamaların daha hızlı yüklenmesini sağlar.
+CDN, genellikle büyük medya dosyaları (resimler, videolar, ses dosyaları) ve dinamik içeriklerin (HTML sayfaları, JavaScript dosyaları, CSS dosyaları) dağıtımında kullanılır.
+Bir CDN, kullanıcının coğrafi konumunu dikkate alarak, içeriği en yakındaki sunucudan teslim eder.
+Bu, içeriğin daha az gecikme ile kullanıcıya ulaşmasını sağlar ve kullanıcı deneyimini artırır.
+Ayrıca, CDN'ler, sunucu yükünü azaltarak web sitesi veya uygulamanın daha iyi ölçeklenebilir olmasına yardımcı olabilir ve güvenilirliklerini artırabilir.
+CDN'ler, büyük web siteleri, e-ticaret platformları, medya şirketleri, oyun şirketleri ve diğer çevrim içi hizmet sağlayıcıları tarafından yoğun bir şekilde kullanılır.
+Popüler CDN hizmet sağlayıcıları arasında Amazon CloudFront, Cloudflare, Akamai, Google Cloud CDN ve Microsoft Azure CDN bulunmaktadır.
+
 2-) CDN => integrity nedir ?
+"CDN Integrity" terimi, bir CDN (Content Delivery Network) hizmetinin güvenilirlik, doğruluk ve tutarlılık gibi bütünlük (integrity) özelliklerini ifade eder.
+ CDN Integrity, bir CDN hizmetinin içerik dağıtımında doğruluk, güvenilirlik ve tutarlılık sağlama yeteneğini ifade eder.
+Bir CDN, içeriklerin dağıtımını hızlandırmak ve kullanıcı deneyimini artırmak için birden fazla sunucudan oluşan bir ağ kullanır. 
+Ancak, CDN hizmetinin güvenilirliği, doğruluğu ve tutarlılığı önemlidir çünkü kullanıcıların doğru ve güncel içeriklere erişim sağlamaları gerekmektedir.
+CDN Integrity, aşağıdaki konuları içerebilir:
+Güvenilirlik: CDN hizmetinin sunucularının ve ağının güvenilir olması, içeriklerin hedeflenen kullanıcılara kesintisiz ve güvenilir bir şekilde ulaşmasını sağlar. 
+Bu, sunucuların yüksek kullanılabilirlik, yedeklilik ve hata toleransı gibi özelliklere sahip olmasını gerektirir.
+Doğruluk: CDN hizmetinin, içerikleri doğru bir şekilde dağıtması ve güncel içeriklerin kullanıcılara iletilmesi önemlidir. 
+İçeriklerin hedeflenen kullanıcılara yanlış veya eksik bir şekilde iletilmesi, hatalı veya güncel olmayan içeriklerin kullanıcı deneyimini olumsuz etkileyebilir.
+Tutarlılık: CDN hizmetinin, içerikleri tüm sunucularında tutarlı bir şekilde dağıtması gerekmektedir. 
+Tutarlılık, kullanıcıların farklı sunuculardan aynı içeriğe eriştiklerinde içeriğin aynı olmasını sağlar. 
+Aksi takdirde, kullanıcılar arasında farklı içeriklerin görüntülenmesi veya hatalı sonuçların ortaya çıkması gibi sorunlar yaşanabilir.
+CDN Integrity, kullanıcı deneyimini ve içerik dağıtımının güvenilirliğini artırmak için önemli bir faktördür. 
+CDN hizmeti seçerken, hizmetin güvenilirlik, doğruluk ve tutarlılık gibi bütünlük özelliklerine dikkat etmek önemlidir.
+
 3-) CDN => sha384
+"CDN sha384", bir CDN (Content Delivery Network) hizmetinde kullanılan bir kriptografik hash algoritması olan SHA-384'i ifade eder. 
+SHA-384, Secure Hash Algorithm (Güvenli Karma Algoritması) ailesinin bir üyesidir ve Amerikan Ulusal Güvenlik Ajansı (NSA) tarafından geliştirilmiştir.
+SHA-384, bir mesajın veya veri bloğunun benzersiz bir sabit uzunluktaki (384 bit) karma (hash) değerini hesaplamak için kullanılır. 
+Kriptografik hash algoritmaları, veri bütünlüğünü sağlamak, veri doğrulama, veri kimlik doğrulama ve dijital imzalama gibi uygulamalarda kullanılır.
+Bir CDN hizmetinde SHA-384 hash algoritması, içeriğin bütünlüğünü korumak için kullanılabilir. 
+Örneğin, bir içerik sağlayıcı, içeriklerini CDN aracılığıyla dağıtırken, içeriklerin değiştirilmediğinden ve bozulmadığından emin olmak için SHA-384 hash algoritmasını kullanabilir. 
+Bu, kullanıcıların doğru ve güvenilir içeriklere erişim sağlamalarını sağlar.
+SHA-384, 384 bit uzunluğundaki karma değeri ile daha güvenli bir hash algoritmasıdır ve SHA-256 gibi daha kısa uzunluktaki hash algoritmalarına göre daha yüksek bir güvenlik seviyesi sunar. 
+Ancak, kullanılacak hash algoritmasının güvenlik gereksinimlerine ve kullanım senaryosuna uygun olarak dikkatlice seçilmesi gerekmektedir.
+
 4-) CDN => crossorigin
+"CDN crossorigin" terimi, bir CDN (Content Delivery Network) hizmetinde, çeşitli web tarayıcılarında "cross-origin" (çapraz kaynak) politikalarını aşmak için kullanılan bir mekanizmayı ifade eder. 
+Cross-origin, bir web sayfasının bir kaynağa (örneğin bir dosyaya veya hizmete) aynı kök etki alanı (origin) dışından erişim sağlamaya çalıştığı durumlarda ortaya çıkar. 
+Bu tür erişim, güvenlik nedenleriyle kısıtlanmıştır ve web tarayıcıları, çeşitli güvenlik politikaları kullanarak cross-origin erişimi kontrol eder.
+Web tarayıcıları, aynı kök etki alanı dışındaki kaynaklara yapılan istekleri genellikle engeller ve bu istekler "same-origin policy" (aynı kök etki alanı politikası) adı verilen bir güvenlik önlemi tarafından kısıtlanır. 
+Ancak, bazı durumlarda, web sayfaları çeşitli nedenlerle (örneğin CDN kullanımı, üçüncü taraf kaynaklara erişim, güncel içeriklerin paylaşımı vb.) aynı kök etki alanı dışındaki kaynaklara ihtiyaç duyabilir. 
+Bu noktada "crossorigin" özelliği devreye girer.
+CDN crossorigin, CDN hizmetinin, aynı kök etki alanı dışındaki kaynaklara erişimi kolaylaştırmak için sunulan bir seçenektir. 
+CDN hizmeti, web sayfalarının kendi etki alanı dışındaki kaynaklara erişim yapmasına izin vermek için "Access-Control-Allow-Origin" başlığını kullanarak cross-origin politikalarını belirleyebilir. 
+Bu sayede, CDN hizmeti, web sayfalarının kendi kök etki alanı dışındaki kaynaklara erişim sağlamasına izin vererek, içerik dağıtımını kolaylaştırabilir.
+CDN crossorigin, web geliştiricilerin cross-origin erişim kısıtlamalarını aşmalarına ve farklı etki alanlarındaki kaynaklara erişim sağlamalarına yardımcı olabilir. 
+Bununla birlikte, güvenlik konusunda dikkatli olunmalı ve cross-origin erişim politikalarının uygun bir şekilde yapılandırılması gerekmektedir, çünkü yanlış yapılandırılmış cross-origin politikalar güvenlik açıklarına yol açabilir.
+
 5-) Semantic nedir ? non-semantic nedir ?
+"Semantic" ve "non-semantic" terimleri, genellikle web tasarımı ve kodlama alanlarında kullanılır ve HTML (Hypertext Markup Language) elementlerinin anlam ve kullanım açısından farklılıklarını ifade eder.
+Semantic (Anlamsal): Semantic, HTML kodunun, içeriğin anlamını doğru bir şekilde ifade eden ve makine tarafından anlaşılabilir olan etiketlerle yapılandırıldığı durumu ifade eder.
+Yani, HTML kodunda kullanılan etiketler, içeriğin ne hakkında olduğunu ve ne tür bir rolü olduğunu açıkça ifade eder.
+Örnek olarak, "header", "nav", "article", "section", "footer" gibi etiketler, içeriğin anlamını doğru bir şekilde ifade eder ve web tarayıcıları ve arama motorları gibi makine tarafından okunabilir.
+Bu, hem geliştiriciler hem de kullanıcılar için kodun anlaşılırlığını ve erişilebilirliğini artırabilir.
+Non-semantic (Anlamsız): Non-semantic, HTML kodunun, içeriğin anlamını doğru bir şekilde ifade etmeyen ve sadece görünümünü düzenleyen etiketlerle yapılandırıldığı durumu ifade eder.
+Yani, HTML kodunda kullanılan etiketler, içeriğin ne hakkında olduğunu veya ne tür bir rolü olduğunu belirtmekten ziyade, sadece görünümü düzenlemek için kullanılır.
+Örnek olarak, "div" ve "span" gibi etiketler, içeriğin anlamını belirtmek yerine sadece görünüme şekil verir ve kodun anlamını doğru bir şekilde ifade etmez.
+Bu, kodun anlaşılırlığını ve erişilebilirliğini azaltabilir, çünkü makine tarafından okunabilirliği düşüktür ve kod karmaşıklaşabilir.
+Semantic ve non-semantic terimleri, web geliştiricilerin HTML kodlarını yapılandırırken, içeriğin anlamını doğru bir şekilde ifade ederek,
+kodun daha anlaşılır, erişilebilir ve SEO (Arama Motoru Optimizasyonu) açısından daha uygun olmasını sağlamak için dikkate almaları gereken önemli kavramlardır.
+
 6-) table colspan rowspan ?
-6-) ascii character nedir ?
-7-) unicode character nedir ?
-7-) form method="get" method="post" ?
+"colspan" ve "rowspan", HTML (Hypertext Markup Language) tablolarında hücrelerin genişliğini (kolon) ve yüksekliğini (satır) ayarlamak için kullanılan özelliklerdir.
+colspan: "colspan", bir tablo hücresinin birden fazla sütuna genişlemesini (yatay olarak) belirten bir HTML özelliğidir.
+Yani, bir hücrenin birden fazla sütunu kaplamasını sağlar. Örneğin, <td colspan="3">...</td> kodu, bir hücrenin 3 sütunu kaplayacağını belirtir.
+Bu, tablo içinde daha geniş hücreler oluşturmak için kullanılabilir ve tablonun görünümünü daha esnek hale getirebilir.
+rowspan: "rowspan", bir tablo hücresinin birden fazla satıra genişlemesini (dikey olarak) belirten bir HTML özelliğidir.
+Yani, bir hücrenin birden fazla satırı kaplamasını sağlar. Örneğin, <td rowspan="2">...</td> kodu, bir hücrenin 2 satırı kaplayacağını belirtir.
+Bu, tablo içinde daha yüksek hücreler oluşturmak için kullanılabilir ve tablonun görünümünü daha esnek hale getirebilir.
+"colspan" ve "rowspan" özellikleri, karmaşık tablo düzenlerini oluştururken, hücrelerin genişliğini ve yüksekliğini belirlemek için kullanılır.
+Ancak, bu özelliklerin aşırı kullanımı karmaşık tablo yapılarına ve erişilebilirlik sorunlarına yol açabilir, bu nedenle dikkatli kullanılmalıdır ve tablolar mümkünse basit ve anlamlı yapılarla tasarlanmalıdır.
+
+7-) ascii character nedir ?
+ASCII (American Standard Code for Information Interchange), bilgisayar sistemlerinde karakterleri temsil etmek için kullanılan bir karakter kodlama standardıdır.
+ASCII karakter kodlaması, bilgisayarlar arasında karakterlerin iletimi, depolanması ve işlenmesi için kullanılır.
+ASCII karakter kodlaması, 7 bitlik bir kodlama şemasıdır ve toplamda 128 farklı karakteri temsil eder.
+Bu karakterler, harfler (büyük ve küçük harfler), sayılar, noktalama işaretleri, kontrol karakterleri (örneğin, yeni satır, sekme, gibi), özel karakterler (örneğin, dolar işareti, ampersand gibi) ve boşluk karakterini içerir.
+ASCII kodları, 0'dan 127'ye kadar olan tam sayı değerleridir ve her karaktere karşılık gelen bir ASCII kod numarası bulunmaktadır.
+Örneğin, ASCII kodu 65 "A" harfini, 97 "a" harfini, 48 "0" sayısını, 32 ise boşluk karakterini temsil eder.
+ASCII karakter kodlaması, temel olarak İngilizce dili için kullanılan karakterlerin temsili için tasarlanmıştır, ancak günümüzde birçok diğer dillerde de kullanılmaktadır.
+ASCII kodları, bilgisayar sistemlerinde karakterleri temsil etmek için yaygın olarak kullanılan temel bir standarttır ve birçok diğer karakter kodlama standardı da ASCII'ye dayanmaktadır.
+
+8-) unicode character nedir ?
+Unicode, dünya genelinde kullanılan tüm dillerdeki karakterleri temsil etmek için tasarlanmış bir karakter kodlama standardıdır.
+Unicode, karakterlerin sayısal değerlerini ve karakterlerin bilgisayarda temsil edilme yöntemini belirleyen bir sistemdir.
+Unicode, farklı dillerdeki karakterlerin tek bir kodlama standardında birleştirilmesini sağlar, böylece farklı dillerdeki karakterler aynı kodlama standardı altında temsil edilebilir.
+Unicode karakter kodlaması, daha geniş bir karakter kümesini temsil etmek için ASCII kodlamasının genişletilmiş bir versiyonudur.
+Unicode, 0'dan başlayarak milyonlarca farklı karakteri temsil eden sayısal kod değerlerine sahiptir.
+Her bir karakter için benzersiz bir Unicode kod numarası bulunur ve bu kod numaraları, karakterlerin bilgisayarda temsil edilmesinde kullanılır.
+Unicode karakter kodlaması, farklı dil ve kültürlere ait karakterleri temsil etmek için geniş bir karakter kümesini içerir.
+Örneğin, Latin alfabesi harfleri, Kyril alfabesi harfleri, Çin karakterleri, Arap harfleri, emoji simgeleri gibi birçok farklı karakteri içerir.
+Unicode karakter kodlaması, bilgisayar sistemlerinde farklı dillerdeki karakterlerin doğru şekilde temsil edilmesini ve doğru metin görüntülenmesini sağlar.
+Unicode, çeşitli karakter kodlama yöntemleri ile kullanılabilir, en yaygın olanları UTF-8, UTF-16 ve UTF-32'dir.
+UTF-8, en yaygın olarak kullanılan Unicode kodlama yöntemidir ve bir karakteri 1 ila 4 byte arasında değişen uzunluklarda temsil edebilir.
+UTF-16, 2 byte (16 bit) uzunluğunda karakter kodlamasıdır ve özellikle Orta Doğu ve Asya dillerinde kullanılır.
+UTF-32 ise her bir karakteri 4 byte (32 bit) uzunluğunda temsil eden bir kodlama yöntemidir.
+
+9-) form method="get" method="post" ?
+"form" HTML etiketi, kullanıcıdan veri girişi almak için kullanılan bir HTML elementidir. 
+"method" atribütü, formun gönderildiği HTTP isteğinin metodunu belirtir ve iki farklı değeri alabilir: "get" ve "post".
+
+"method" atribütü "get" değeri ile kullanımı:
+<form action="/submit" method="get">
+  <!-- form içeriği -->
+</form>
+"get" metodunda, formdaki veriler, formun "action" atribütünde belirtilen URL'ye HTTP isteği ile eklenir.
+Bu veriler URL'nin sorgu parametreleri olarak görüntülenir ve URL üzerinden aktarılır.
+Örneğin, bir kullanıcı bir formu doldurup "Gönder" düğmesine bastığında, form verileri URL üzerinde görüntülenecektir.
+Bu nedenle, "get" metodunda gönderilen veriler URL üzerinde görünür ve bu veriler tarayıcı geçmişinde veya log kayıtlarında saklanabilir.
+"get" metodunun bir diğer özelliği, form verilerinin URL'nin sınırlı uzunluğuna (genellikle 2048 karakter) tabi olmasıdır.
+
+"method" atribütü "post" değeri ile kullanımı:
+<form action="/submit" method="post">
+  <!-- form içeriği -->
+</form>
+"post" metodunda, formdaki veriler, HTTP isteğinin gövdesine eklenir ve URL üzerinde görüntülenmez.
+Bu nedenle, "post" metodunda gönderilen veriler URL üzerinde görünmez ve tarayıcı geçmişi veya log kayıtları gibi yerlerde saklanmaz.
+Ayrıca, "post" metodunda gönderilecek veri miktarı "get" metoduna göre daha fazla olabilir.
+"post" metodu, genellikle formun hassas veya gizli veri içerdiği durumlarda kullanılır.
+
+Kısacası, "method" atribütü, HTML formunun verilerini nasıl göndereceğini belirler.
+"get" metodunda veriler URL üzerinde görünürken, "post" metodunda veriler URL üzerinde görünmez ve HTTP isteğinin gövdesine eklenir.
+Hangi metodun kullanılacağı, formun veri güvenliği, veri boyutu ve uygulama gereksinimlerine bağlı olarak belirlenmelidir.
+
+10-) Senkron ile asenkron arasındaki farkalr nelerdir ?
+Bir veri veya işlemin senkronize edilmesi, bir saat veya zamanlama mekanizması kullanarak belirli bir zaman aralığında gerçekleştirilmesi anlamına gelir.
+Yani, veri veya işlem gönderen cihaz, alıcı cihazın hazır olduğu bir zamanda veriyi veya işlemi gönderir.
+Örneğin, bir web sayfasının yüklenmesi senkron bir işlemdir çünkü sayfanın yüklenmesi için belirli bir zaman aralığı vardır.
+Asenkronize edilmiş bir veri veya işlem ise, belirli bir zaman aralığına bağlı olmadan gerçekleştirilir.
+Bu, veri veya işlem gönderen cihazın veriyi veya işlemi hemen gönderdiği anlamına gelir ve alıcı cihazın ne zaman hazır olacağına bağlı değildir.
+Örneğin, bir e-posta gönderme işlemi asenkron bir işlemdir çünkü gönderen cihaz, e-postayı hemen gönderir ve alıcı cihazın hazır olmasını beklemez.
+Senkronizasyon, yüksek hızlı veri aktarımı gerektiren uygulamalar için uygundurken, asenkronizasyon daha düşük hızlarda veya farklı zaman aralıklarında gerçekleşen işlemler için daha uygundur.
+Senkronizasyonda, işlemlerin tamamlanması için diğer işlemlerin tamamlanması gerekebilirken, asenkronizasyonda böyle bir gereklilik yoktur.
+
+11-)Libraries ile Framework arasındaki farklar nelerdir ?
+Libraries (kütüphaneler) ve Frameworks (çatılar), yazılım geliştirme sürecinde kullanılan programlama araçlarıdır.
+Bir Library (kütüphane), hazır kod parçaları sunarak geliştiricilere kodlarını hızlandırmak ve tekrar kullanılabilir bir şekilde yazmak için kullanabilecekleri kodları sağlar.
+Öte yandan, bir Framework (çatı), belirli bir uygulama türü için gereksinim duyulan tüm yapıları sağlar ve geliştiricilerin uygulama kodlarını yazmalarına yardımcı olacak temel yapıları sağlar.
+Libraries (kütüphaneler) esnek ve geniş bir yelpazede kullanılabilirken, Frameworks (çatılar) belirli bir proje veya uygulama türü için tasarlanmıştır.
+Libraries (kütüphaneler), farklı projelerde tekrar kullanılabilen kod parçaları sağlar, Frameworks (çatılar) ise belirli bir uygulama veya proje için hazır çözümler sağlar.
+Libraries (kütüphaneler), kodların tekrar kullanılabilirliğini arttırırken, Frameworks (çatılar) belirli bir programlama tarzına veya yöntemolojiye uyumlu olmak için gereken yapıları sağlar.
+Libraries (kütüphaneler) daha küçük ve daha basit birimlerdir, Frameworks (çatılar) ise daha büyük ve daha kapsamlıdır.
+Bu nedenle, bir proje için bir Library (kütüphane) veya Framework (çatı) kullanımı kararı, projenin boyutu ve gereksinimleri göz önüne alınarak verilir.
