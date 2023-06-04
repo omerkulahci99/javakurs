@@ -2,4 +2,4 @@
 Beautify Formatter ==> Shift+Alt+F
 Single Commet      ==> Ctrl+K+C
 Copy               ==> Ctrl+D
-Rename             ==> F2S
+Rename             ==> F2

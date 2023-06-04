@@ -11,9 +11,20 @@
     <meta name="author" content="Hamit Mızrak" />
     <meta name="keyword" content="html5,css3,js,bootstrap,react,ES5,jQuery" />
     <meta name="description" content="Portfoy Site" />
-    
+
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"  />
+    <!-- external css -->
+    <link rel="stylesheet" href="form_homework.css">
+    <style>
+        
+
+       
+    </style>
+
 </head>
 
 <body>
@@ -21,34 +32,50 @@
 
     <!-- register form : html -->
     <div id="form_out">
-        <h1>Register</h1>
-        <p>Fill out this form</p>
-        <form action="#" method="get" autocomplete="on">
-            <div>
-                <input type="text" name="first_name" id="first_name" required placeholder="First Name" autofocus>
+        <div class="container">
+            <div id="vocabulary">
+                <h1>Register</h1>
+                <p>Fill out this form</p>
             </div>
-            <div>
-                <input type="text" name="last_name" id="last_name" required placeholder="Last Name">
-            </div>
-            <div>
-                <input type="text" name="uname" id="uname" required placeholder="User Name" >
-            </div>
-            <div>
-                <input type="email" name="email_address" id="email_address" required placeholder="E-mail Address" >
-            </div>
-            <div>
-                <input type="password" name="passwd" id="passwd" required placeholder="Password" >
-            </div>
-    
-            <div>
-                <input type="checkbox" name="form_check" id="form_check"> I aggree with the <span>Term and Conditions</span>  and the <span>Privacy Policy</span>
-            </div>
-            <div>
-                <button>Create Account</button>
-            </div>
-        </form>
-    </div>
-   
+            <form action="#" method="get" autocomplete="on">
+                <div class="left_side">
+                    <div class="col50 left-inner-addon" style="margin-right: 5px;">
+                        <i class="fa-solid fa-circle-user"></i>
+                        <input  type="text" name="first_name" id="first_name" required placeholder="First Name"
+                            autofocus>
+                    </div>
+                    <div class="col50  left-inner-addon">
+                        <i class="fa-solid fa-circle-user"></i>
+                        <input type="text" name="last_name" id="last_name" required placeholder="Last Name">
+                    </div>
+                </div>
+
+                <div class="col100  left-inner-addon">
+                    <i class="fa-solid fa-user-secret"></i>
+                    <input type="text" name="uname" id="uname" required placeholder="User Name">
+                </div>
+                <div class="col100  left-inner-addon">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" name="email_address" id="email_address" required placeholder="E-mail Address">
+                </div>
+                <div class="col100  left-inner-addon">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" name="passwd" id="passwd" required placeholder="Password">
+                </div>
+
+                <div id="input_checkbox">
+                    <input type="checkbox" name="form_check" id="form_check"> I aggree with the <span
+                        class="border_bold">Term and
+                        Conditions</span> and the <span class="border_bold">Privacy Policy</span>
+                </div>
+                <div id="div_submit">
+                    <button class="btn">Create Account</button>
+                </div>
+            </form>
+        </div> <!-- end container-->
+
+    </div> <!-- end form_out-->
+
 
     <!--  ends codes -->
     <!-- Bootstrap JavaScript Libraries -->
